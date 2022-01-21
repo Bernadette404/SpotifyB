@@ -7,30 +7,29 @@ const styles = StyleSheet.create({
     },
     textStyle:{
         color: 'lightgray',
-        flexDirection:'row',
         paddingTop: 45,
+        flex: 3
     },
     obalaContainer:{
         flexDirection:'row', 
-        paddingTop:8, 
-        marginBottom:20
+        marginBottom:10,
     },
     obaTextStyle:{
         bottom:15, 
-        color:'white',
+        color:'lightgray',
         borderWidth:1, 
-        borderColor:'white', 
+        borderColor:'lightgray', 
         paddingVertical:7, 
         paddingHorizontal:11, 
         borderRadius: 5, 
         fontSize:12,
         fontWeight:'bold',
-        fontFamily: 'CircularStd'
+        fontFamily: 'CircularStd-Black'
     },
     songImageStyle:{
         width: 45, 
         height:45, 
-        bottom:50
+        marginTop: 0
     },
     ellipsiStyle:{
         color: 'white', 
@@ -41,8 +40,8 @@ const styles = StyleSheet.create({
     creator: {
         color: 'lightgray',
         fontSize: 13,
-        bottom:25,
-        fontFamily: 'CircularStd'
+        bottom:30,
+        fontFamily: 'CircularSpotifyText-Light'
     },
     likes: {
         color: 'lightgray',
@@ -50,58 +49,79 @@ const styles = StyleSheet.create({
         bottom:25,
     },
     secondView:{
-        flexDirection: 'row',
-        marginTop:0,
-        paddingTop:0
+        flex: 1,
+        justifyContent:'center',
+        alignItems:'center'
     },
     okudumile:{
         color: 'white',
-        fontFamily: 'CircularStd',
-        fontSize: 18,
+        fontFamily: 'CircularStd-Black',
+        fontSize: 20,
         fontWeight: 'bold',
         flexDirection: 'row',
         justifyContent: 'flex-end',
-        top:20,
-        right:60
+        //top:20,
+        right:60,
+        marginTop: 25
     },
     touchIcon:{
         left:130
     },
     touchButton:{
         position:"absolute",
-        right:10,
+        right:0,
+        top: 5
     },
     songstyle:{
         margin:10,
         flexDirection:'row',
-        paddingTop: 30,
+        flex: 1,
     },
     songContainer:{
-        bottom:30,
-        fontFamily: 'CircularStd',
+        fontFamily: 'CircularStd-Black',
         fontSize:15,
         marginLeft:10,
     },
     songTitle:{
         color: 'white',
-        bottom: 18,
-        fontFamily: 'CircularStd',
+        marginTop:0,
+        marginBottom:5,
+        fontFamily: 'CircularSpotifyText-Light',
         fontSize:16,
         marginLeft:3
     },
     songName:{
-        color: 'white',
-        bottom: 10,
+        color: 'lightgray',
         fontSize:14,
-        fontFamily: 'CircularStd',
+        fontFamily: 'CircularSpotifyText-Light',
         marginLeft:3,
     },
     linearGradient: {
         flex: 1,
         paddingLeft: 15,
         paddingRight: 15,
-        borderRadius: 5
+        borderRadius: 5,
+        flexDirection:'row'
       },
+      playIcon:{
+          width: 60,
+          height: 60,
+          justifyContent:'center',
+          alignItems:'center',
+          backgroundColor:'#3DBA54',
+          borderRadius: 30,
+          marginTop: 25,
+          marginLeft: 20
+      },
+      shuffle:{
+          width:20,
+          height:20,
+          backgroundColor: 'white',
+          position:'absolute',
+          bottom:0,
+          right:0,
+          borderRadius:10
+      }
 });
 
 export default styles;
