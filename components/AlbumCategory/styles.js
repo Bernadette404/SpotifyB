@@ -22,24 +22,27 @@ const styles = StyleSheet.create({
         marginHorizontal: 10
     },
     text:{
-        fontSize: 15
+        fontSize: 15,
+        fontFamily: 'CircularStd-Black',
     },
     songTitle:{
         color: 'white',
         marginLeft:5,
         fontSize:16,
-        top: 1
+        top: 1,
+        fontFamily: 'CircularSpotifyText-Light',
     },
     songStreams:{
-        color: 'white',
+        color: 'lightgray',
         marginLeft:5,
         fontSize: 13,
-        top:10
+        top:10,
+        fontFamily: 'CircularSpotifyText-Light',
     },
     ellipsis:{
-        color: 'white',
+        color: 'lightgray',
         position:'absolute',
-        right:12,
+        right:20,
         top: 25
     },
 })

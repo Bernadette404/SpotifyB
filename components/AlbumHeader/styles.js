@@ -9,7 +9,8 @@ const styles = StyleSheet.create({
         fontSize: 52,
         fontWeight: "bold",
         color: '#FBFBFB',
-        top: 195
+        top: 195,
+        fontFamily: 'CircularStd-Black',
     },
     icon:{
         bottom: 180,

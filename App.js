@@ -24,7 +24,7 @@ export default function App() {
                  tabBarActiveTintColor:'#B9B9B9',
                  tabBarInactiveTintColor: '#7B7B7B',
                  headerShown: false,
-                 tabBarStyle: { position: 'absolute', backgroundColor:'#282828' },
+                 tabBarStyle: { position: 'absolute', backgroundColor:'#282828', fontFamily: 'CircularStd-Black',},
                  tabBarIcon: ({forceTouchGestureHandlerProps, size, color}) => {
                     let iconName;
                     if(route.name === 'Ikhaya'){
