@@ -60,7 +60,6 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         flexDirection: 'row',
         justifyContent: 'flex-end',
-        //top:20,
         right:60,
         marginTop: 25
     },

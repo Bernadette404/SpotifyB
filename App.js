@@ -1,16 +1,9 @@
 import React from 'react';
-import { Text, View, Image, Stylesheet} from 'react-native';
-import AlbumBody from './components/AlbumBody';
-import AlbumHeader from './components/AlbumHeader';
-import AlbumCategory from './components/AlbumCategory';
 import IkhayaScreen from './screens/IkhayaScreen';
 import SeshaScreen from './screens/SeshaScreen';
 import UmtapoScreen from './screens/UmtapoScreen';
 import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { forceTouchGestureHandlerProps } from 'react-native-gesture-handler/lib/typescript/handlers/ForceTouchGestureHandler';
-import Icon from 'react-native-vector-icons/FontAwesome5';
 import FontAwesome5Icon from 'react-native-vector-icons/FontAwesome5';
 
 

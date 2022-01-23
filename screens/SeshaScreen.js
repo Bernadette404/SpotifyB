@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, View, Image, Touchable, Pressable, StyleSheet } from "react-native";
+import { Text, View, StyleSheet } from "react-native";
 import AlbumBody from "../components/AlbumBody";
 import AlbumHeader from '../components/AlbumHeader';
 import AlbumCategory from '../components/AlbumCategory';

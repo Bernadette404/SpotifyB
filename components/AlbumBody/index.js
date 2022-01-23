@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, Image, View, TouchableOpacity} from "react-native";
+import { Text, Image, View} from "react-native";
 import styles from "./styles";
 import LinearGradient from 'react-native-linear-gradient';
 import FontAwesome5Icon from 'react-native-vector-icons/FontAwesome5';
